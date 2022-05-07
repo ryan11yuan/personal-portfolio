@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ryan Yuan's Portfolio</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        
+        <!-- Update these with your own fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="img/Ryan Yuan Logo.png" alt="Logo">
+            </div>
+
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">What I do</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">My work</a></li>
+                </ul>
+            </nav>
+            
+        </header>
+        
+        <!-- Introduction -->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Hey, I am <strong>Ryan Yuan</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">aspiring developer</p>
+            <img src="img/RY1.png" alt="Picture of Ryan Yuan" class="intro__img">
+        </section>
+        
+        
+        <!-- My services -->
+        <section class="my-services" id="services">
+            <h2 class="section__title section__title--services">Hobbies</h2>
+            <div class="services">
+                <div class="service">
+                    <h3>Design & Develop</h3>
+                    <p>Designing and developing comes in many forms: graphic editors, coding editors, websites, and more. I have learnt to video edit using 'Sony Vegas Pro', photo edit using 'Photoshop' and create front-end websites with code like this one!</p>
+                </div> <!-- / service -->
+                
+                <div class="service">
+                    <h3>Soccer</h3>
+                    <p>I love to stay active and get involved in my community. Soccer has always been a hobby of mine as a child and has helped me establish many connections. I play soccer competetively as an extra-curricular activity, and joined my school's varsity boys soccer team and currently volunteering at the varsity girls soccer team.</p>
+                </div> <!-- / service -->
+                
+                <div class="service">
+                    <h3>Learn new coding languages</h3>
+                    <p>I have played around with many different coding languages; including Java for competetive programming, Python in a ICS3U1 course at my school, Javascript to develop a discord bot, HTML and CSS for designing front-end websites, and hopefully more to come!</p>
+                </div> <!-- / service -->
+            </div> <!-- / services -->
+            
+            <a href="#work" class="btn">My Recent Work</a>
+        </section>
+        
+        
+        <!-- About me -->
+        <section class="about-me" id="about">
+           <h2 class="section__title section__title--about">Who I am</h2>
+           <p class="section__subtitle section__subtitle--about">Born in Canada, in year 2007. </p>
+           
+           <div class="about-me__body">
+               <p>I am currently in grade 9 attending a local highschool in Canada.</p>
+               <p>I picked up coding a few years ago starting at Java as my first language. Now, I am exploring the world of web and app design; sharpening and deepening my knowledge in various different coding languages.</p>
+           </div>
+           
+           <img src="img/RY2.png" alt="Picture of Ryan Yuan" class="about-me__img">
+        </section>
+        
+        <!-- My Work -->
+        <section class="my-work" id="work">
+            <h2 class="section__title section__title--work">Recent work</h2>
+            <p class="section__subtitle section__subtitle--work">"Next Gen" Experimental Website:</p>
+            
+            <div class="portfolio">
+                <!-- Portfolio item 01 -->
+                <a href="https://laughing-almeida-01ed4c.netlify.app/" class="portfolio__item">
+                    <img src="img/portfolio-01.jpg" alt="" class="portfolio__img">
+                </a>
+                
+        </section>
+        
+        
+        <!-- Footer -->
+        <footer class="footer">
+            <!-- replace with your own email address -->
+            <a href="https://mail.google.com/mail/u/3/#inbox?compose=new" class="footer__link">ryanyuan32@gmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.instagram.com/ryan.yuan11/">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/ryan11yuan">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+        <script src="js/index.js"></script>
+    </body>
+</html>
